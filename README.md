@@ -16,8 +16,10 @@ opencv-python-headless == 4.6.0.66
 opencv-contrib-python-headless == 4.6.0.66  
 
 # To train
-`python main_FAS.py --model=ShffleNetV2_hd_v1 --batch_size=64 --image_size=64 --dataset_name=WMCA --prot=prints --is_Multi=True`  
-`python main_FAS.py --model=ShffleNetV2_hd_v1 --batch_size=64 --image_size=64 --dataset_name=WMCA --prot=prints--image_modality=thermal`  
+```bash
+python main_FAS.py --model=ShffleNetV2_hd_v1 --batch_size=64 --image_size=64 --dataset_name=WMCA --prot=prints --is_Multi=True
+python main_FAS.py --model=ShffleNetV2_hd_v1 --batch_size=64 --image_size=64 --dataset_name=WMCA --prot=prints--image_modality=thermal
+```
 
 # To Test
 Specify the name of the saved parameter file.  
