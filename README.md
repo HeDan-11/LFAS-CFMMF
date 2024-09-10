@@ -2,6 +2,7 @@
 This is a lightweight multi-modal FAS model, the theory comes from the paper "Lightweight Face Anti-Spoofing Method based on Cross-Fused Multi-modal Features".
 
 # Dependencies
+```bash
 yacs == 0.1.8  
 timm == 0.5.4  
 imgaug == 0.4.0   
@@ -13,7 +14,8 @@ torchsummary == 1.5.1
 torchvision == 0.9.2+cu111  
 opencv-python == 4.6.0.66  
 opencv-python-headless == 4.6.0.66  
-opencv-contrib-python-headless == 4.6.0.66  
+opencv-contrib-python-headless == 4.6.0.66
+```
 
 # To train
 ```bash
