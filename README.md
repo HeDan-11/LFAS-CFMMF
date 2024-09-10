@@ -1,4 +1,4 @@
-# LFAS-CFMMF
+# [LFAS-CFMMF](https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-33/issue-2/023033/Lightweight-face-anti-spoofing-method-based-on-cross-fused-multi/10.1117/1.JEI.33.2.023033.short)
 This is a lightweight multi-modal FAS model, the theory comes from the paper "Lightweight Face Anti-Spoofing Method based on Cross-Fused Multi-modal Features".
 
 # Dependencies
