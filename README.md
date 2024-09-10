@@ -29,7 +29,7 @@ python main_FAS.py --model=ShffleNetV2_hd_v1 --batch_size=64 --image_size=64 --d
 Specify the name of the saved parameter file.  
 ```bash
 # Multimodal
-python main_FAS.py --model=ShffleNetV2_hd_v1 --batch_size=64 --image_size=64 --dataset_name=WMCA --prot=fakehead --is_Multi=True --mode=infer_test --pretrained_model = r'test_min_acer_model_20230726_06_48_22
+python main_FAS.py --model=ShffleNetV2_hd_v1 --batch_size=64 --image_size=64 --dataset_name=WMCA --prot=fakehead --is_Multi=True --mode=infer_test --pretrained_model = r'test_min_acer_model_20230726_06_48_22'
 Testing all the saved models under this protocol.
 # Single-modal
 python main_FAS.py --model=ShffleNetV2_hd_v1 --batch_size=64 --image_size=64 --dataset_name=WMCA --prot=rigidmask --is_Multi=True --mode=infer_test
